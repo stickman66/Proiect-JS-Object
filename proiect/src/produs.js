@@ -7,7 +7,7 @@ class View{
         
     }
     update(items){
-        //this.produse.textContent = "";
+        this.produse.textContent = "";
 
         const fragment = document.createDocumentFragment();
         for ( let i of items){
